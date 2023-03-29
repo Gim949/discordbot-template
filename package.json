@@ -1,0 +1,25 @@
+{
+  "name": "discordbot-template",
+  "version": "1.0.0",
+  "description": "A template I use when making a new discord bot",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./dist/main.js",
+    "compile": "npx tsc && npx tsc-alias",
+    "dev": "npm run compile && DEBUG=* npm run start"
+  },
+  "author": "Gim949",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "eris": "^0.17.2",
+    "tsc-alias": "^1.8.4"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.7",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.2"
+  }
+}
