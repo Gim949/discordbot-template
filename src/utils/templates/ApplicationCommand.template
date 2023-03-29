@@ -1,0 +1,15 @@
+import BotClient from "@bot/core/BotClient";
+import { CommandInteraction } from "eris";
+
+// https://rauf.wtf/slash/
+// https://glitchii.github.io/embedbuilder/
+// https://discord.com/developers/docs/interactions/application-commands#application-command-object
+export const struct = {
+}
+
+export const handler = async (client: BotClient, interaction: CommandInteraction) => {
+}
+
+// Only use if needed
+// export const componentHandler = async (client: BotClient, interaction: ComponentInteraction) => {
+// }

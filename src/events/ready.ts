@@ -4,4 +4,6 @@ import BotClient from "@bot/core/BotClient";
 export default 
 async (client: BotClient) => {
     logger.info(`[${new Date().toISOString()}] Bot is ready.`);
+
+    await client.commandManager.registerStructs("some guild id");
 }
