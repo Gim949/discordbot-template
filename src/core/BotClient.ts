@@ -22,6 +22,7 @@ class BotClient extends Eris.CommandClient {
 
     async init() {
         await this.eventManager.init();
+        await this.commandManager.init();
 
         logger.debug(`BotClient initialized.`);
     }
