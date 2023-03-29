@@ -1,7 +1,7 @@
 ## Installing
 Needs Nodejs 18+
 
-Go [here]([https://abal.moe/Eris/docs/0.17.2/getting-started) for docs
+Go [here](https://abal.moe/Eris/docs/0.17.2/getting-started) for docs
 
 ### Directories
 * `src` -- Contains the source, I'm using typescript here
